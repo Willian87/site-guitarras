@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: rgb(69, 154, 126);
+    color: rgb(0, 0, 0);
+    padding: 64px 0;
+}
+header h1{
+    font-size: 80px;
+}
+header nav li{
+    display: inline;
+    margin-left:16px;
+    font-size: 35px;
+}
+header nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.guitarra{
+    height: 300px;
+    border-radius: 10px;
+}
+section .container{
+    padding-top: 90px;
+    
+}
+.articles{
+    display: flex;
+    justify-content: space-between;
+} 
+section h2{
+    font-size: 40px;
+    margin-top: 16px;
+}
+.background{
+    width:2219px;
+    height: 900px;
+}
+.articles article{
+    width: 38%;
+    
+}
+section p{
+    margin-top: 8px;
+    font-size: 30px;
+    
+}
+#contact{
+    background-color: rgb(65, 65, 65);
+    
+}
+#contact .container{
+    display: block;
+}
+.contact-method{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    padding-left: 50%;
+}
+form input,
+form button,
+form textarea{
+    display: block;
+    width: 900px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 20px;
+}
+form textarea{
+    resize: none;
+}
+#contact h2{
+    margin-bottom: 1px;
+    padding-left: 50%;
+    
+}
+form button{
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(148, 219, 148);
+}
+header
+{
+    font-family: Grape Nuts, cursive;
+    font-weight: normal;
+}
+section p,section h2, section h3{
+    font-family: Nunito,cursive;
+}
+input, textarea{
+    font-family: 'Robot', sans-serif;
+}
+.social-links img{
+    height: 50px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+#contact h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+footer{
+    background-color: rgb(69, 154, 126);
+    padding: 40px 40%;
+    font-size: 28px;
+}
+
